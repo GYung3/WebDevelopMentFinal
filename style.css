@@ -1,0 +1,157 @@
+/* CSS Demo - Professor Loveless 11/12/19 */
+
+/*syntax = selector {declaration (property: value);}
+ example h1 {color: #ff0000;} */
+
+/* More about Web Safe Fonts - https://websitesetup.org/web-safe-fonts-html-css/ */
+/* Bonus - how do we import a font from Google Fonts? - fonts.google.com */
+
+/*------------------ */
+/* General Style */
+/*------------------ */
+
+/* background-color: c3fdff; //// color: #000; */
+
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: blue;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: white;
+}
+
+/*style h1, h2, h3, h4, h5, h6 */
+
+h1 {
+
+}
+
+p {
+  /* color (font), font-size */
+  /* margin - how do we add more space between each paragraph? */
+}
+
+
+/* link ----> #ffeb3b -> on hover: #ffff72*/
+a {
+    COLOR: white;
+    font-weight: bold;
+  /* color, text-decoration */
+}
+
+a:hover{
+  color: red;
+  font-weight: bold;
+}
+/* for more about :hover selectors: https://www.w3schools.com/cssref/sel_hover.asp */
+
+
+.left{
+  float: left;
+  width: 49%;
+  margin: 0px;
+  /*background-color:red;*/
+
+}
+
+
+.right{
+  float: right;
+  width: 49%;
+  margin: 0px;
+  /*background-color: blue;*/
+  text-align: right;
+}
+
+.left2{
+  float: left;
+  width: 49%;
+  margin: 0px;
+  text-align: center;
+
+}
+
+
+.right2{
+  float: right;
+  width: 49%;
+  margin: 0px;
+  /*background-color: blue;*/
+  text-align: center;
+}
+
+img,iframe{
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img:hover{
+  border: 5px solid red;
+}
+
+.bottom{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.imgLink{
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+
+}
+
+
+.container{
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+.story{
+  font-size: 25px;
+
+}
+
+.toolbar{
+  height: 70px;
+  background-color: black;
+
+}
+
+.toolbar img, .toolbar img:hover{
+  height: 69px;
+  width: auto;
+  float: left;
+  border: 0px;
+}
+
+.citation, .citation:hover{
+  font-size: 12px;
+  color: black;
+
+
+}
+
+.citation2{
+  color: white;
+  font-size: 12px;
+}
+/*------------------ */
+/* Start Page */
+/*------------------ */
+
+/* Add a class to our title */
+
+
+/*------------------ */
+/* Choices */
+/*------------------ */
+
+/* Make the page of each choice have a different background-color and text color */
+
+/* Choice 1 - background-color: #c43e00, color: #fff;*/
+/* Choice 2 - background-color: #003b8e, color: #fff;*/
